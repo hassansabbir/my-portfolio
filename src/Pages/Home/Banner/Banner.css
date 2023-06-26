@@ -1,0 +1,7 @@
+.fullBanner{
+  background-image: url("../../../assets/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 900px;
+}
