@@ -3,10 +3,10 @@ import profileImage from "../../../assets/IMG_4389-01.jpeg";
 
 const AboutMe = () => {
   return (
-    <div className="aboutMeSection px-40 bg-fixed bg-no-repeat py-40 flex  items-center gap-10 text-white">
+    <div className="aboutMeSection p-5 md:p-40 bg-fixed bg-no-repeat md:flex  items-center gap-10 text-white">
       <div>
         <h2 className="text-5xl underline mb-10">About Me</h2>
-        <div className="text-2xl space-y-5">
+        <div className="md:text-2xl space-y-5">
           <p>
             Hi, I'm Mahmud Hasan Sabbir, a passionate junior web developer
             dedicated to crafting engaging and user-friendly websites. With a

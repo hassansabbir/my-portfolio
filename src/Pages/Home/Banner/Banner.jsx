@@ -27,12 +27,12 @@ const Banner = () => {
             <button className="btn btn-outline bg-gray-900 text-white border-gray-800">
               <FaGithub className="w-8 h-8" />
             </button>
-            <Link>
-              <button className="btn btn-outline bg-gray-900 text-white border-gray-800">
-                {" "}
-                <FaFacebookF className="w-8 h-8" />
-              </button>
-            </Link>
+          </Link>
+          <Link>
+            <button className="btn btn-outline bg-gray-900 text-white border-gray-800">
+              {" "}
+              <FaFacebookF className="w-8 h-8" />
+            </button>
           </Link>
           <Link>
             <button className="btn btn-outline bg-gray-900 text-white border-gray-800">

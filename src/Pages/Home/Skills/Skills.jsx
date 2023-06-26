@@ -18,79 +18,81 @@ import vercel from "../../../assets/vercel.png";
 
 const Skills = () => {
   return (
-    <div className="skillsSection bg-fixed bg-no-repeat p-40">
+    <div className="skillsSection bg-fixed bg-no-repeat p-5 md:p-40">
       <h2 className="text-5xl text-center text-white">My Skills</h2>
-      <p className="text-white text-2xl text-center my-10">
-        I have a good foundation and expatriate skills in MERN Stack and
-        front-end languages and their frameworks. I am a quick learner and can
-        adapt to any circumstance with a cool-minded. As a lifelong learner, I
-        always try to keep updated with new technologies and express them in my
-        work. Beyond technical skills, I am a dedicated team player with
-        excellent communication skills. I am eager to contribute my
-        collaborative skills to the accomplished team at your company. I thrive
-        in collaborative environments and actively seek feedback to improve my
-        work. All my skills are given bellow-
-      </p>
-      <div className="grid grid-cols-6 mt-20 gap-10">
-        <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
-          <img className="w-60 h-56" src={html} alt="" />
-          <h2 className="text-4xl ">HTML</h2>
-        </div>
-        <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
-          <img className="w-60 h-56" src={css} alt="" />
-          <h2 className="text-4xl ">CSS</h2>
-        </div>
-        <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
-          <img className="w-60 h-56" src={bootstrap} alt="" />
-          <h2 className="text-4xl ">Bootstrap</h2>
-        </div>
-        <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
-          <img className="w-60 h-56" src={tailwind} alt="" />
-          <h2 className="text-4xl ">Tailwind</h2>
-        </div>
-        <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
-          <img className="w-60 h-56" src={javascript} alt="" />
-          <h2 className="text-4xl ">JavaScript</h2>
-        </div>
-        <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
-          <img className="w-60 h-56" src={react} alt="" />
-          <h2 className="text-4xl ">React</h2>
-        </div>
-        <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
-          <img className="w-60 h-56" src={firebase} alt="" />
-          <h2 className="text-4xl ">Firebase</h2>
-        </div>
-        <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
-          <img className="w-60 h-56" src={nodejs} alt="" />
-          <h2 className="text-4xl ">NodeJs</h2>
-        </div>
-        <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
-          <img className="w-60 h-56" src={expressjs} alt="" />
-          <h2 className="text-4xl ">Express Js</h2>
-        </div>
-        <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
-          <img className="w-60 h-56" src={mongodb} alt="" />
-          <h2 className="text-4xl ">MongoDb</h2>
-        </div>
-        <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
-          <img className="w-60 h-56" src={vscode} alt="" />
-          <h2 className="text-4xl ">Vs Code</h2>
-        </div>
-        <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
-          <img className="w-60 h-56" src={figma} alt="" />
-          <h2 className="text-4xl ">Figma</h2>
-        </div>
-        <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
-          <img className="w-60 h-56" src={netlify} alt="" />
-          <h2 className="text-4xl ">Netlify</h2>
-        </div>
-        <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
-          <img className="w-60 h-56" src={git} alt="" />
-          <h2 className="text-4xl ">Git</h2>
-        </div>
-        <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
-          <img className="w-60 h-56" src={vercel} alt="" />
-          <h2 className="text-4xl ">Vercel</h2>
+      <div className="md:flex w-full items-center gap-20">
+        <p className="text-white md:text-2xl md:w-1/2 text-center my-10">
+          I have a good foundation and expatriate skills in MERN Stack and
+          front-end languages and their frameworks. I am a quick learner and can
+          adapt to any circumstance with a cool-minded. As a lifelong learner, I
+          always try to keep updated with new technologies and express them in
+          my work. Beyond technical skills, I am a dedicated team player with
+          excellent communication skills. I am eager to contribute my
+          collaborative skills to the accomplished team at your company. I
+          thrive in collaborative environments and actively seek feedback to
+          improve my work. All my skills are given bellow-
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-5 mt-20 md:w-1/2 gap-10">
+          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+            <img className="w-28 h-20" src={html} alt="" />
+            <h2 className="text-xl ">HTML</h2>
+          </div>
+          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+            <img className="w-28 h-20" src={css} alt="" />
+            <h2 className="text-xl ">CSS</h2>
+          </div>
+          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+            <img className="w-28 h-20" src={bootstrap} alt="" />
+            <h2 className="text-xl ">Bootstrap</h2>
+          </div>
+          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+            <img className="w-28 h-20" src={tailwind} alt="" />
+            <h2 className="text-xl ">Tailwind</h2>
+          </div>
+          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+            <img className="w-28 h-20" src={javascript} alt="" />
+            <h2 className="text-xl ">JavaScript</h2>
+          </div>
+          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+            <img className="w-28 h-20" src={react} alt="" />
+            <h2 className="text-xl ">React</h2>
+          </div>
+          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+            <img className="w-28 h-20" src={firebase} alt="" />
+            <h2 className="text-xl ">Firebase</h2>
+          </div>
+          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+            <img className="w-28 h-20" src={nodejs} alt="" />
+            <h2 className="text-xl ">NodeJs</h2>
+          </div>
+          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+            <img className="w-28 h-20" src={expressjs} alt="" />
+            <h2 className="text-xl ">Express Js</h2>
+          </div>
+          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+            <img className="w-28 h-20" src={mongodb} alt="" />
+            <h2 className="text-xl ">MongoDb</h2>
+          </div>
+          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+            <img className="w-28 h-20" src={vscode} alt="" />
+            <h2 className="text-xl ">Vs Code</h2>
+          </div>
+          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+            <img className="w-28 h-20" src={figma} alt="" />
+            <h2 className="text-xl ">Figma</h2>
+          </div>
+          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+            <img className="w-28 h-20" src={netlify} alt="" />
+            <h2 className="text-xl ">Netlify</h2>
+          </div>
+          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+            <img className="w-28 h-20" src={git} alt="" />
+            <h2 className="text-xl ">Git</h2>
+          </div>
+          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+            <img className="w-28 h-20" src={vercel} alt="" />
+            <h2 className="text-xl ">Vercel</h2>
+          </div>
         </div>
       </div>
     </div>

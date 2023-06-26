@@ -1,0 +1,37 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "projectName": "Champions Sports Camp",
+      "liveSiteLink": "https://champions-sports-camp.web.app/",
+      "githubServerLink": "https://github.com/hassansabbir/champions-sports-camp-server",
+      "githubClientLink": "https://github.com/hassansabbir/champions-sports-camp-client",
+      "technologies": ["HTML", "CSS", "JavaScript", "Tailwind", "React", "Firebase", "Express Js", "Node Js", "MongoDb"],
+      "descriptions": [ "This is a single-paged summer sports camp website where you can enroll some of best sports courses you can find.",
+        "This is a single-page summer sports camp website. All the students, instructors and admin can use this website with different roles. Different users have different dashboards on this website. After successfully registering and login everyone is a student by default. An admin can make a user instructor and even an admin. He can approve or deny any classes added by the instructors. He can send feedback to explain the denial of that class. Only the instructor can see this feedback in his dashboard. An instructor can see all the classes he added to this website with the live status of the class and all the feedback written by the admin. He can keep adding new courses as many as he wants. If the admin approves these classes then it will show on the website.Students can enroll in a class by purchasing a class. They can pay with any valid card."
+      ]
+    },
+    {
+      "id": "2",
+      "projectName": "Hero Dungeon",
+      "liveSiteLink": "https://hero-dungeon-b0407.web.app/",
+      "githubServerLink": "https://github.com/hassansabbir/hero-dungeon-server",
+      "githubClientLink": "https://github.com/hassansabbir/hero-dungeon-client",
+      "technologies": ["HTML", "CSS", "JavaScript", "Tailwind", "React", "Firebase", "Express Js", "Node Js", "MongoDb"],
+      "descriptions": [ "This is a single-paged online toy store website where you will find all action figure toys from Marvel, Avengers, and Transformers Universe.",
+        " This is a single-page action figure toy store website where you can find all the toys of the characters from Marvel, avengers, and Transformers. The website has many features such as after login or registration. Some pages are protected by privet routes. To gain full access one must log in or register an account. Users can add a toy, which will be shown in the main section of the website. And he/she will have complete control of editing or deleting the toy from the database."
+      ]
+    },
+    {
+      "id": "3",
+      "projectName": "BD Chefs Knife",
+      "liveSiteLink": "https://bd-chefs-knife.web.app/",
+      "githubServerLink": "https://github.com/hassansabbir/bd-chefs-knife-server",
+      "githubClientLink": "https://github.com/hassansabbir/bd-chefs-knife-client",
+      "technologies": ["HTML", "CSS", "JavaScript", "Tailwind", "React", "Firebase", "Express Js", "Node Js", "MongoDb"],
+      "descriptions": ["This is a single-paged website where you can find some mouthwatering recipes of Bangladeshi chefs.", 
+        "This is a light theme website that contains the recipe of the most brilliant chefs of Bangladesh. After login user can see the most popular recipes of the best chefs. There are a lot of mouthwatering recipes that a person can't resist. Users can also mark a dish as their favorite by clicking the favorite button. He or she can buy that dish or order them later. For user security, login and registration pages are given so users can visit the website safely and freely. The website has privet routes to limit some access from un-logged-in users. To get full access of the website, one must login or register to the website."
+      ]
+    }
+  ]
+}
