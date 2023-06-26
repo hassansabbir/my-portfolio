@@ -2,8 +2,9 @@
   "projects": [
     {
       "id": "1",
-      "projectName": "Champions Sports Camp",
-      "liveSiteLink": "https://champions-sports-camp.web.app/",
+      "name": "Champions Sports Camp",
+      "photos": ["https://i.ibb.co/PskSymy/hero1.png","https://i.ibb.co/h2YfYv3/hero2.png","https://i.ibb.co/sbzSWQg/hero3.png","https://i.ibb.co/F0T9KfZ/hero4.png","https://i.ibb.co/Nr25FyV/hero5.png","https://i.ibb.co/qkBggKN/hero6.png","https://i.ibb.co/64MjV58/hero7.png"],
+      "liveLink": "https://champions-sports-camp.web.app/",
       "githubServerLink": "https://github.com/hassansabbir/champions-sports-camp-server",
       "githubClientLink": "https://github.com/hassansabbir/champions-sports-camp-client",
       "technologies": ["HTML", "CSS", "JavaScript", "Tailwind", "React", "Firebase", "Express Js", "Node Js", "MongoDb"],
@@ -13,8 +14,9 @@
     },
     {
       "id": "2",
-      "projectName": "Hero Dungeon",
-      "liveSiteLink": "https://hero-dungeon-b0407.web.app/",
+      "name": "Hero Dungeon",
+      "photos":["https://i.ibb.co/x5D5q1K/h1.png","https://i.ibb.co/pQhHRCf/h2.png","https://i.ibb.co/GWTZsNP/h3.png", "https://i.ibb.co/XYnHVMf/h4.png", "https://i.ibb.co/9csRBJw/h5.png", "https://i.ibb.co/kgnr9zQ/h8.png", "https://i.ibb.co/BBfzHQD/h6.png"],
+      "liveLink": "https://hero-dungeon-b0407.web.app/",
       "githubServerLink": "https://github.com/hassansabbir/hero-dungeon-server",
       "githubClientLink": "https://github.com/hassansabbir/hero-dungeon-client",
       "technologies": ["HTML", "CSS", "JavaScript", "Tailwind", "React", "Firebase", "Express Js", "Node Js", "MongoDb"],
@@ -24,8 +26,9 @@
     },
     {
       "id": "3",
-      "projectName": "BD Chefs Knife",
-      "liveSiteLink": "https://bd-chefs-knife.web.app/",
+      "name": "BD Chefs Knife",
+      "photos":["https://i.ibb.co/XCzpN26/chef1.png", "https://i.ibb.co/gvss9qx/chef2.png","https://i.ibb.co/PcfXDJj/chef3.png","https://i.ibb.co/L0tqVDm/chef5.png", "https://i.ibb.co/H720KM6/chefs4.png"],
+      "liveLink": "https://bd-chefs-knife.web.app/",
       "githubServerLink": "https://github.com/hassansabbir/bd-chefs-knife-server",
       "githubClientLink": "https://github.com/hassansabbir/bd-chefs-knife-client",
       "technologies": ["HTML", "CSS", "JavaScript", "Tailwind", "React", "Firebase", "Express Js", "Node Js", "MongoDb"],
