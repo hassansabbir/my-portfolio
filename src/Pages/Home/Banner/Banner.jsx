@@ -1,4 +1,5 @@
 import "./Banner.css";
+import { TypeAnimation } from "react-type-animation";
 import {
   FaDownload,
   FaFacebookF,
@@ -15,11 +16,23 @@ const Banner = () => {
       <div className="items-center">
         <h2 className="text-5xl text-center mb-5">Hello!👋</h2>
         <h2 className="text-3xl md:text-5xl text-center">
-          I am Mahmud Hasan Sabbir
+          I'm Mahmud Hasan Sabbir
         </h2>
-        <h2 className="text-3xl md:text-5xl mt-5 text-center">
-          Junior MERN Stack Developer
-        </h2>
+        <TypeAnimation
+          sequence={[
+            "Junior MERN Stack Developer",
+            1000,
+            "Junior Front-end developer",
+            1000,
+          ]}
+          speed={50}
+          style={{
+            fontSize: "3.5em",
+            display: "inline-block",
+            textAlign: "center",
+          }}
+          repeat={Infinity}
+        />
         <div className="flex justify-center gap-5 mt-5">
           <a href="https://www.linkedin.com/in/mahmud-hasan-sabbir/">
             <button className="btn btn-outline bg-gray-900 text-white border-gray-800">
