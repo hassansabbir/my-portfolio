@@ -18,7 +18,10 @@ import vercel from "../../../assets/vercel.png";
 
 const Skills = () => {
   return (
-    <div className="skillsSection bg-fixed bg-no-repeat p-5 md:p-40">
+    <div
+      id="skills"
+      className="skillsSection bg-fixed bg-no-repeat p-5 md:p-40"
+    >
       <h2 className="text-5xl text-center text-white">My Skills</h2>
       <div className="md:flex w-full items-center gap-20">
         <p className="text-white md:text-2xl md:w-1/2 text-center my-10">
@@ -32,7 +35,7 @@ const Skills = () => {
           thrive in collaborative environments and actively seek feedback to
           improve my work. All my skills are given bellow-
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-5 mt-20 md:w-1/2 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-5 mt-20 md:w-1/2 md:gap-10">
           <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
             <img className="w-28 h-20" src={html} alt="" />
             <h2 className="text-xl ">HTML</h2>

@@ -15,8 +15,12 @@ const Banner = () => {
     <div className="fullBanner bg-fixed bg-no-repeat flex justify-center items-center text-white">
       <div className="items-center">
         <h2 className="text-5xl text-center mb-5">Hello!👋</h2>
-        <h2 className="text-5xl text-center">I am Mahmud Hasan Sabbir</h2>
-
+        <h2 className="text-3xl md:text-5xl text-center">
+          I am Mahmud Hasan Sabbir
+        </h2>
+        <h2 className="text-3xl md:text-5xl mt-5 text-center">
+          Junior MERN Stack Developer
+        </h2>
         <div className="flex justify-center gap-5 mt-5">
           <Link>
             <button className="btn btn-outline bg-gray-900 text-white border-gray-800">
@@ -51,9 +55,11 @@ const Banner = () => {
               Download CV <FaDownload />
             </button>
           </a>
-          <button className="btn btn-outline bg-gray-900 text-white border-gray-800 flex">
-            Contact Me <FaPhone />
-          </button>
+          <a href="#contact">
+            <button className="btn btn-outline bg-gray-900 text-white border-gray-800 flex">
+              Contact Me <FaPhone />
+            </button>
+          </a>
         </div>
       </div>
     </div>

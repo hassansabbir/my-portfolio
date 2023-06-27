@@ -34,7 +34,7 @@ const AboutMe = () => {
         </div>
       </div>
       <img
-        className="w-[600px] h-[600px] rounded-3xl"
+        className="md:w-[600px] md:h-[600px] rounded-3xl"
         src={profileImage}
         alt=""
       />

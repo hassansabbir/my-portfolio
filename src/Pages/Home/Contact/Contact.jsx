@@ -1,5 +1,6 @@
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
+import "./Contact.css";
 
 const Contact = () => {
   const form = useRef();
@@ -8,14 +9,14 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_wuivc58",
+        "template_7o43aq2",
         form.current,
-        "YOUR_PUBLIC_KEY"
+        "KtU0F2BoOX1Co1hDn"
       )
       .then(
         (result) => {
-          console.log(result.text);
+          console.log(result);
         },
         (error) => {
           console.log(error.text);
@@ -24,17 +25,64 @@ const Contact = () => {
   };
 
   return (
-    <div>
-      <h2 className="text-5xl text-center p-5 md:p-40">Contact Me</h2>
-      <form ref={form} onSubmit={sendEmail}>
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
-      </form>
+    <div id="contact" className="contactPage bg-fixed bg-no-repeat pb-20">
+      <h2 className="text-5xl text-center text-white p-5 md:p-40">
+        Contact Me
+      </h2>
+      <div className="md:flex items-center w-full">
+        <div className="w-6/12 mx-auto text-white">
+          <h3 className="md:text-3xl md:p-10">
+            Thank you for your interest! I would love to hear from you. If you
+            have a project in mind or would like to discuss potential
+            collaborations, please provide some details about your requirements
+            and goals. This will help me better understand your needs and how I
+            can contribute to your success.
+          </h3>
+        </div>
+        <form
+          ref={form}
+          onSubmit={sendEmail}
+          className="md:p-20 w-5/12 mx-auto text-white shadow-2xl rounded-3xl bg-gray-950"
+        >
+          <div>
+            <label className="text-3xl">Name</label> <br />
+            <input
+              className="border bg-gray-800 text-xl px-10 my-2 w-full py-3 rounded-xl shadow-xl"
+              type="text"
+              placeholder="name"
+              name="user_name"
+              id=""
+            />
+          </div>
+          <div>
+            <label className="text-3xl">Email</label> <br />
+            <input
+              className="border text-xl  bg-gray-800 px-10 mt-2 w-full py-3 rounded-xl shadow-xl"
+              type="text"
+              placeholder="email"
+              name="user_email"
+              id=""
+            />
+          </div>
+          <div>
+            <label className="text-3xl">Message</label> <br />
+            <textarea
+              cols="2"
+              rows="5"
+              className="border text-xl  bg-gray-800 px-10 mt-2 w-full py-3 rounded-xl shadow-xl"
+              type="text"
+              placeholder="type your message here"
+              name="message"
+              id=""
+            />
+          </div>
+          <input
+            className="btn btn-outline text-white mt-5 shadow-2xl"
+            type="submit"
+            value="Send"
+          />
+        </form>
+      </div>
     </div>
   );
 };
