@@ -7,7 +7,7 @@ const Projects = () => {
   console.log(projects);
 
   useEffect(() => {
-    fetch("projects.json")
+    fetch("/projects.json")
       .then((res) => res.json())
       .then((data) => setProjects(data.projects));
   }, []);

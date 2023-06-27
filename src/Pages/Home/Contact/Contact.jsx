@@ -35,12 +35,12 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="contactPage bg-fixed bg-no-repeat pb-20">
+    <div id="contact" className="contactPage p-5 bg-fixed bg-no-repeat pb-20">
       <h2 className="text-5xl text-center text-white p-5 md:p-40">
         Contact Me
       </h2>
       <div className="md:flex items-center w-full">
-        <div className="w-6/12 mx-auto text-white">
+        <div className="md:w-6/12 mx-auto text-white">
           <h3 className="md:text-3xl md:p-10">
             Thank you for your interest! I would love to hear from you. If you
             have a project in mind or would like to discuss potential
@@ -52,7 +52,7 @@ const Contact = () => {
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="md:p-20 w-5/12 mx-auto text-white shadow-2xl rounded-3xl bg-gray-950"
+          className="md:p-20 md:w-5/12 mx-auto text-white shadow-2xl rounded-3xl bg-gray-950"
         >
           <div>
             <label className="text-3xl">Name</label> <br />

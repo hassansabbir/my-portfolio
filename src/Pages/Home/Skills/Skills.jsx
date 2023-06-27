@@ -35,65 +35,73 @@ const Skills = () => {
           thrive in collaborative environments and actively seek feedback to
           improve my work. All my skills are given bellow-
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-5 mt-20 md:w-1/2 md:gap-10">
-          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+        <div className="grid grid-cols-3 text-white md:grid-cols-5 mt-20 md:w-1/2 gap-10 md:gap-10">
+          <div className="flex flex-col rounded-full object-contain items-center  bg-transparent">
             <img className="w-28 h-20" src={html} alt="" />
             <h2 className="text-xl ">HTML</h2>
           </div>
-          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+          <div className="flex flex-col rounded-full object-contain items-center bg-transparent">
             <img className="w-28 h-20" src={css} alt="" />
             <h2 className="text-xl ">CSS</h2>
           </div>
-          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+          <div className="flex flex-col rounded-full object-contain items-center  bg-transparent">
             <img className="w-28 h-20" src={bootstrap} alt="" />
             <h2 className="text-xl ">Bootstrap</h2>
           </div>
-          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+          <div className="flex flex-col rounded-full object-contain items-center  bg-transparent">
             <img className="w-28 h-20" src={tailwind} alt="" />
             <h2 className="text-xl ">Tailwind</h2>
           </div>
-          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+          <div className="flex flex-col rounded-full object-contain items-center  bg-transparent">
             <img className="w-28 h-20" src={javascript} alt="" />
             <h2 className="text-xl ">JavaScript</h2>
           </div>
-          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+          <div className="flex flex-col rounded-full object-contain items-center  bg-transparent">
             <img className="w-28 h-20" src={react} alt="" />
             <h2 className="text-xl ">React</h2>
           </div>
-          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+          <div className="flex flex-col rounded-full object-contain items-center  bg-transparent">
             <img className="w-28 h-20" src={firebase} alt="" />
             <h2 className="text-xl ">Firebase</h2>
           </div>
-          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+          <div className="flex flex-col rounded-full object-contain items-center  bg-transparent">
             <img className="w-28 h-20" src={nodejs} alt="" />
             <h2 className="text-xl ">NodeJs</h2>
           </div>
-          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+          <div className="flex flex-col rounded-full object-contain items-center  bg-transparent">
             <img className="w-28 h-20" src={expressjs} alt="" />
             <h2 className="text-xl ">Express Js</h2>
           </div>
-          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+          <div className="flex flex-col rounded-full object-contain items-center  bg-transparent">
             <img className="w-28 h-20" src={mongodb} alt="" />
             <h2 className="text-xl ">MongoDb</h2>
           </div>
-          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+          <div className="flex flex-col rounded-full object-contain items-center  bg-transparent">
             <img className="w-28 h-20" src={vscode} alt="" />
             <h2 className="text-xl ">Vs Code</h2>
           </div>
-          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+          <div className="flex flex-col rounded-full object-contain items-center  bg-transparent">
             <img className="w-28 h-20" src={figma} alt="" />
             <h2 className="text-xl ">Figma</h2>
           </div>
-          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
+          <div className="flex flex-col rounded-full object-contain items-center  bg-transparent">
             <img className="w-28 h-20" src={netlify} alt="" />
             <h2 className="text-xl ">Netlify</h2>
           </div>
-          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
-            <img className="w-28 h-20" src={git} alt="" />
+          <div className="flex flex-col rounded-full object-contain items-center  bg-transparent">
+            <img
+              className="w-28 h-20 bg-slate-200 rounded-full"
+              src={git}
+              alt=""
+            />
             <h2 className="text-xl ">Git</h2>
           </div>
-          <div className="flex flex-col rounded-3xl items-center my-10 py-10 bg-white">
-            <img className="w-28 h-20" src={vercel} alt="" />
+          <div className="flex flex-col rounded-full object-contain items-center  bg-transparent">
+            <img
+              className="w-28 h-20 bg-slate-200 rounded-full px-1"
+              src={vercel}
+              alt=""
+            />
             <h2 className="text-xl ">Vercel</h2>
           </div>
         </div>
