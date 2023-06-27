@@ -3,7 +3,7 @@
     {
       "id": "1",
       "name": "Champions Sports Camp",
-      "photos": ["https://i.ibb.co/PskSymy/hero1.png","https://i.ibb.co/h2YfYv3/hero2.png","https://i.ibb.co/sbzSWQg/hero3.png","https://i.ibb.co/F0T9KfZ/hero4.png","https://i.ibb.co/Nr25FyV/hero5.png","https://i.ibb.co/qkBggKN/hero6.png","https://i.ibb.co/64MjV58/hero7.png"],
+      "photos": ["https://i.ibb.co/mNKygtR/hero9.png","https://i.ibb.co/h2YfYv3/hero2.png","https://i.ibb.co/sbzSWQg/hero3.png","https://i.ibb.co/F0T9KfZ/hero4.png","https://i.ibb.co/Nr25FyV/hero5.png","https://i.ibb.co/qkBggKN/hero6.png","https://i.ibb.co/64MjV58/hero7.png"],
       "liveLink": "https://champions-sports-camp.web.app/",
       "githubServerLink": "https://github.com/hassansabbir/champions-sports-camp-server",
       "githubClientLink": "https://github.com/hassansabbir/champions-sports-camp-client",
