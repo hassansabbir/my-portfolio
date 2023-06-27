@@ -1,6 +1,7 @@
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import "./Contact.css";
+import Swal from "sweetalert2";
 
 const Contact = () => {
   const form = useRef();
@@ -17,6 +18,15 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result);
+          if (result.text === "OK") {
+            Swal.fire({
+              position: "top-end",
+              icon: "success",
+              title: "Your Email Has Been Sent",
+              showConfirmButton: false,
+              timer: 1500,
+            });
+          }
         },
         (error) => {
           console.log(error.text);
