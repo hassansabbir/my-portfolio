@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import jsonData from "../../../public/projects.json";
 import "./Details.css";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -17,11 +17,11 @@ const Details = () => {
   console.log(project);
   return (
     <div className="detailsPage p-5 md:p-40">
-      <a href="/">
+      <Link to="/">
         <button className="btn btn-outline mt-10 bg-gray-900 text-white border-gray-800">
           Go Back
         </button>
-      </a>
+      </Link>
       <h2 className="text-5xl text-white my-10 text-center">{project.name}</h2>
       <div className="md:px-96">
         <Swiper

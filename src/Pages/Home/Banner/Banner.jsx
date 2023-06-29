@@ -9,8 +9,12 @@ import {
   FaPhone,
   FaTwitter,
 } from "react-icons/fa";
+import useScreen from "../../../hooks/useScreenSize";
 
 const Banner = () => {
+  const screenSize = useScreen();
+  console.log(screenSize);
+
   return (
     <div className="fullBanner bg-fixed bg-no-repeat flex justify-center items-center text-white">
       <div className="items-center">
@@ -23,15 +27,17 @@ const Banner = () => {
             "Junior MERN Stack Developer",
             1000,
             "Junior Front-end developer",
-            1000,
+            2000,
           ]}
           speed={50}
           style={{
-            fontSize: "3.5em",
-            display: "inline-block",
+            fontSize: screenSize > 600 ? "3rem" : "1.5rem",
+            display: "flex",
+            justifyContent: "center",
             textAlign: "center",
           }}
           repeat={Infinity}
+          key={screenSize}
         />
         <div className="flex justify-center gap-5 mt-5">
           <a href="https://www.linkedin.com/in/mahmud-hasan-sabbir/">
