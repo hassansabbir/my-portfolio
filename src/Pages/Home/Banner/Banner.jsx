@@ -31,7 +31,7 @@ const Banner = () => {
           ]}
           speed={50}
           style={{
-            fontSize: screenSize > 600 ? "3rem" : "1.5rem",
+            fontSize: screenSize > 667 ? "3rem" : "1.5rem",
             display: "flex",
             justifyContent: "center",
             textAlign: "center",
@@ -68,9 +68,12 @@ const Banner = () => {
           </a>
         </div>
         <div className="flex gap-5 justify-center mt-6">
-          <a href="https://drive.google.com/file/d/1NPtGyGesluJkujdtGkhOzdBcliFZ66dI/view">
+          <a
+            href="https://drive.google.com/file/d/1NPtGyGesluJkujdtGkhOzdBcliFZ66dI/view"
+            download="Resume"
+          >
             <button className="btn btn-outline bg-gray-900 text-white border-gray-800 flex">
-              Download CV <FaDownload />
+              Resume <FaDownload />
             </button>
           </a>
           <a href="#contact">
