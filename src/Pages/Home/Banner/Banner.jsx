@@ -68,10 +68,7 @@ const Banner = () => {
           </a>
         </div>
         <div className="flex gap-5 justify-center mt-6">
-          <a
-            href="https://drive.google.com/file/d/1NPtGyGesluJkujdtGkhOzdBcliFZ66dI/view"
-            download="Resume"
-          >
+          <a href="resume.pdf" download="resume.pdf">
             <button className="btn btn-outline bg-gray-900 text-white border-gray-800 flex">
               Resume <FaDownload />
             </button>
