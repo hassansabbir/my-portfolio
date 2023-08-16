@@ -8,7 +8,7 @@
       "githubServerLink": "https://github.com/hassansabbir/modabella-server",
       "githubClientLink": "https://github.com/hassansabbir/modabella-client",
       "technologies": ["HTML", "CSS", "JavaScript", "Tailwind", "React", "Firebase", "Express Js", "Node Js", "MongoDb"],
-      "descriptions": [ "This is a single-paged e-commerce website where you can buy any fashion dress for man, woman, and children.",
+      "descriptions": [ "This is a single paged e-commerce website where you can buy fashionable dresses for men, women, and children. All products are divided into different categories so customers can go to what they need in one click.",
         "This is a single paged e-commerce website where you can buy fashionable dresses for men, women, and children. All products are divided into different categories so customers can go to what they need in one click. After registering and login as a customer one can buy the products using a stripe payment system. After successful payment, they can see all the parched products and all the payment history with transaction ids. The three roles of this site are admin, seller, and customer. An admin can manage all the products on the site and make any registered user into an admin or seller. After being a seller one can add his product for sale. Only if an admin approves the product, it will display on the website. Used animation libraries in the front end."
       ]
     },
