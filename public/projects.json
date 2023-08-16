@@ -2,6 +2,30 @@
   "projects": [
     {
       "id": "1",
+      "name": "ModaBella",
+      "photos": ["https://i.ibb.co/9rGg4Dk/Screenshot-2023-08-16-155834558.png", "https://i.ibb.co/5GNKDsz/Screenshot-2023-08-16-152345931.png", "https://i.ibb.co/Ky8pP0P/Screenshot-2023-08-16-233617.png", "https://i.ibb.co/xYfGVqJ/Screenshot-2023-08-16-163560122.png", "https://i.ibb.co/W2sp0PW/Screenshot-2023-08-16-160345712.png" , "https://i.ibb.co/64NkxFG/Screenshot-2023-08-16-160356018.png", "https://i.ibb.co/zSP3V6G/Screenshot-2023-08-16-160525.png"],
+      "liveLink": "https://modabella-84ce4.web.app/",
+      "githubServerLink": "https://github.com/hassansabbir/modabella-server",
+      "githubClientLink": "https://github.com/hassansabbir/modabella-client",
+      "technologies": ["HTML", "CSS", "JavaScript", "Tailwind", "React", "Firebase", "Express Js", "Node Js", "MongoDb"],
+      "descriptions": [ "This is a single-paged e-commerce website where you can buy any fashion dress for man, woman, and children.",
+        "This is a single paged e-commerce website where you can buy fashionable dresses for men, women, and children. All products are divided into different categories so customers can go to what they need in one click. After registering and login as a customer one can buy the products using a stripe payment system. After successful payment, they can see all the parched products and all the payment history with transaction ids. The three roles of this site are admin, seller, and customer. An admin can manage all the products on the site and make any registered user into an admin or seller. After being a seller one can add his product for sale. Only if an admin approves the product, it will display on the website. Used animation libraries in the front end."
+      ]
+    },
+    {
+      "id": "2",
+      "name": "AdmissionGuru",
+      "photos": ["https://i.ibb.co/qFhX3N2/Screenshot-2023-08-16-233740.png", "https://i.ibb.co/313dzPG/Screenshot-2023-08-16-233802.png", "https://i.ibb.co/RhCBTgm/Screenshot-2023-08-16-233827.png", "https://i.ibb.co/z204CgJ/Screenshot-2023-08-16-233859.png", "https://i.ibb.co/YdbZgmY/Screenshot-2023-08-16-233919.png", "https://i.ibb.co/n6B3pm8/Screenshot-2023-08-16-233948.png", "https://i.ibb.co/HrkHGJ9/Screenshot-2023-08-16-234002.png"],
+      "liveLink": "https://admissionguru-4485b.web.app/",
+      "githubServerLink": "https://github.com/hassansabbir/admissionGuru-server",
+      "githubClientLink": "https://github.com/hassansabbir/admissionGuru-client",
+      "technologies": ["HTML", "CSS", "JavaScript", "Tailwind", "React", "Firebase", "Express Js", "Node Js", "MongoDb"],
+      "descriptions": [ "This is a single-page educational website where students can find the best colleges for them.",
+        "This is a single-page educational website where students can find the best colleges for them. The students can browse all colleges on the website and they can search a college by college name. They can see all the details on the college details page. There is a page where students can book a seat at their favorite college and can see the college afterward. The website has many features such as after login or registration. Some pages are protected by privet routes. After registering and login to an account one can get full access to the website. If not, they will redirect to the login page. Students can see all their detailed information on the profile page. And always can edit all the profile information."
+      ]
+    },
+    {
+      "id": "3",
       "name": "Champions Sports Camp",
       "photos": ["https://i.ibb.co/mNKygtR/hero9.png","https://i.ibb.co/h2YfYv3/hero2.png","https://i.ibb.co/sbzSWQg/hero3.png","https://i.ibb.co/F0T9KfZ/hero4.png","https://i.ibb.co/Nr25FyV/hero5.png","https://i.ibb.co/qkBggKN/hero6.png","https://i.ibb.co/64MjV58/hero7.png"],
       "liveLink": "https://champions-sports-camp.web.app/",
@@ -13,7 +37,7 @@
       ]
     },
     {
-      "id": "2",
+      "id": "4",
       "name": "Hero Dungeon",
       "photos":["https://i.ibb.co/x5D5q1K/h1.png","https://i.ibb.co/pQhHRCf/h2.png","https://i.ibb.co/GWTZsNP/h3.png", "https://i.ibb.co/XYnHVMf/h4.png", "https://i.ibb.co/9csRBJw/h5.png", "https://i.ibb.co/kgnr9zQ/h8.png", "https://i.ibb.co/BBfzHQD/h6.png"],
       "liveLink": "https://hero-dungeon-b0407.web.app/",
@@ -25,7 +49,7 @@
       ]
     },
     {
-      "id": "3",
+      "id": "5",
       "name": "BD Chefs Knife",
       "photos":["https://i.ibb.co/XCzpN26/chef1.png", "https://i.ibb.co/gvss9qx/chef2.png","https://i.ibb.co/PcfXDJj/chef3.png","https://i.ibb.co/L0tqVDm/chef5.png", "https://i.ibb.co/H720KM6/chefs4.png"],
       "liveLink": "https://bd-chefs-knife.web.app/",
