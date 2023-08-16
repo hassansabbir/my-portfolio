@@ -15,7 +15,7 @@
     {
       "id": "2",
       "name": "AdmissionGuru",
-      "photos": ["https://i.ibb.co/qFhX3N2/Screenshot-2023-08-16-233740.png", "https://i.ibb.co/313dzPG/Screenshot-2023-08-16-233802.png", "https://i.ibb.co/RhCBTgm/Screenshot-2023-08-16-233827.png", "https://i.ibb.co/z204CgJ/Screenshot-2023-08-16-233859.png", "https://i.ibb.co/YdbZgmY/Screenshot-2023-08-16-233919.png", "https://i.ibb.co/n6B3pm8/Screenshot-2023-08-16-233948.png", "https://i.ibb.co/HrkHGJ9/Screenshot-2023-08-16-234002.png"],
+      "photos": ["https://i.ibb.co/pzvt80M/Screenshot-2023-08-16-234538.png", "https://i.ibb.co/313dzPG/Screenshot-2023-08-16-233802.png", "https://i.ibb.co/RhCBTgm/Screenshot-2023-08-16-233827.png", "https://i.ibb.co/z204CgJ/Screenshot-2023-08-16-233859.png", "https://i.ibb.co/YdbZgmY/Screenshot-2023-08-16-233919.png", "https://i.ibb.co/n6B3pm8/Screenshot-2023-08-16-233948.png", "https://i.ibb.co/HrkHGJ9/Screenshot-2023-08-16-234002.png"],
       "liveLink": "https://admissionguru-4485b.web.app/",
       "githubServerLink": "https://github.com/hassansabbir/admissionGuru-server",
       "githubClientLink": "https://github.com/hassansabbir/admissionGuru-client",
